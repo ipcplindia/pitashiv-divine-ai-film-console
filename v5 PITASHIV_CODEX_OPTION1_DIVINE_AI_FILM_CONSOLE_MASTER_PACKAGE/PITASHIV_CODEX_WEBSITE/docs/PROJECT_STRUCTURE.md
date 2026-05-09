@@ -1,0 +1,31 @@
+# Project Structure
+
+```text
+app/
+  layout.tsx
+  page.tsx
+  globals.css
+components/
+  Header.tsx
+  HeroConsole.tsx
+  IdentityStrip.tsx
+  ReleaseGrid.tsx
+  AlbumUniverse.tsx
+  Services.tsx
+  ConsolePanels.tsx
+  GalleryWall.tsx
+  Footer.tsx
+data/
+  navigation.ts
+  releases.ts
+  services.ts
+public/assets/
+  reference/
+  brand/
+  backgrounds/
+  releases/
+static-prototype/
+CODEX_MASTER_PROMPT.md
+README_CODEX_SETUP.md
+site.config.ts
+```

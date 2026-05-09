@@ -1,0 +1,1 @@
+export function GalleryWall(){return <section id="gallery" className="block"><div className="sectionTitle"><h2>Posters / Thumbnails / Gallery</h2><a>View Gallery</a></div><div className="gallery">{Array.from({length:12}).map((_,i)=><img key={i} src={`/assets/releases/release-${String(i+1).padStart(2,'0')}.jpg`} alt={`Gallery image ${i+1}`}/>)}</div></section>}
